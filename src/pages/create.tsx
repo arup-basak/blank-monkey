@@ -9,7 +9,7 @@ import brush from 'public/brush.svg'
 import undo from 'public/undo.svg'
 import reset from 'public/reset.svg'
 
-const Canvas = () => {
+const Create = () => {
     const [brushStroke, setBrushStroke] = useState(1)
     const [eraserStroke, setEraserStroke] = useState(1)
     const [brushColor, setBrushColor] = useState('red')
@@ -115,4 +115,4 @@ const Canvas = () => {
     );
 };
 
-export default Canvas
+export default Create
