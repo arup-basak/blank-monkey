@@ -2,12 +2,12 @@ import { useState, useRef } from 'react';
 import { ReactSketchCanvasRef, ReactSketchCanvas } from 'react-sketch-canvas';
 import Head from 'next/head';
 import ToolButton from './components/ToolButton';
-import clear from 'public/clear.svg'
-import eraser from 'public/eraser.svg'
-import redo from 'public/redo.svg'
-import brush from 'public/brush.svg'
-import undo from 'public/undo.svg'
-import reset from 'public/reset.svg'
+import clear from 'public/clear-icon.svg'
+import eraser from 'public/eraser-icon.svg'
+import redo from 'public/redo-icon.svg'
+import brush from 'public/brush-icon.svg'
+import undo from 'public/undo-icon.svg'
+import reset from 'public/reset-icon.svg'
 
 const Create = () => {
     const [brushStroke, setBrushStroke] = useState(1)
